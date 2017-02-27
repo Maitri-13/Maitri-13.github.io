@@ -1,0 +1,40 @@
+* {
+    border: 1px   !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#toprow{
+    background-color: #525453;
+border: 1px solid #525453;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 3px;
+    clear: both;
+}
+.row{
+        display: flex;
+}
+
+
+.col-md-12{
+    text-align: center;
+}
+
+.rect {
+    line-height: 1.2; // overwrite it on a different css if you prefer
+}
